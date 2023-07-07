@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFolio - Documentation</title>
+    <meta name="description" content="A Laravel Script, which gives power to manage their site with ease.">
+    <meta name="author" content="R Cube Dev">
+    <link rel="icon" type="image/x-icon" href="assets/images/def_favicon.png">
+    <!-- Stylesheets -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css" />
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/magnific-popup/magnific-popup.min.css" />
+    <!-- Highlight Syntax -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/highlight.js/styles/github.css" />
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
+</head>
+<body class="box">
+    
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="lds-ellipsis">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        </div>
+    </div>
+    <!-- Preloader End -->
+
+    <!-- Document Wrapper -->
+    <div id="main-wrapper">
+
+        <!-- Header -->
+        <header id="header" class="sticky-top">
+            <nav class="primary-menu navbar navbar-expand-lg navbar-dropdown-dark">
+                <div class="container-fluid">
+                  <!-- Sidebar Toggler -->
+                  <button id="sidebarCollapse" class="navbar-toggler d-block d-md-none" type="button"><span></span><span class="w-75"></span><span class="w-50"></span></button>
+                  <!-- Logo --> 
+                  <a class="logo ml-md-3" href="index.html" title="Dash UI"> <img height="54px" width="54px" src="assets/images/logo.png" alt="Dash Ui Documentation"/></a>
+                  <span class="text-2 ml-2">v1.0</span> 
+                  <!-- Logo End -->
+            </nav>
+        </header>
+        <!-- Header End -->
+
+        <!-- Main Content -->
+        <main id="content" role="main">
+
+            <!-- Sidebar Navigation -->
+            <div class="idocs-navigation bg-light">
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a class="nav-link active" href="#getting_started">Getting Started</a>
+                        <ul class="nav flex-column">
+                            <li class="nav-item"><a class="nav-link" href="#getting_started">Introduction</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#server_requirements">Server Requirements</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#setup_live">How to Setup on Live Server</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#setup_local">How to Setup on Localhost</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link active" href="#myfolio_installation">MyFolio Setup</a>
+                        <ul class="nav flex-column">
+                            <li class="nav-item"><a class="nav-link" href="#myfolio_installation">Installation</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#myfolio_admin">Admin Dashboard</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#myfolio_profile">Profile</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#myfolio_personal">Personal Information</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#myfolio_portfolio">Portfolio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#myfolio_messages">Contact Messages</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#myfolio_newsletter">Newsletter</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#myfolio_themes">Themes</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#myfolio_settings">Settings</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link active" href="#how_to">How To & FAQ</a>
+                        <ul class="nav flex-column">
+                            <li class="nav-item"><a class="nav-link" href="#how_to_add_cron_job">How to add Cron Job?</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#how_to_edit_code">How to Edit Code?</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- Sidebar End -->
+
+            <!-- Docs -->
+            <div class="idocs-content">
+                <div class="container">
+
+                    <!-- 1. Introduction -->
+                    <section id="getting_started">
+                        <h2>Introduction</h2>
+                        <p>Thank you very much choosing our application. We truly appreciate and really hope that you'll enjoy our script.<br><b>If you like this script, please support us by rating us 5 Stars on our product page.</b></p>
+
+                        <h4>MyFolio - Personal Website Laravel Script</h4>
+                        <p>MyFolio is a php based web application designed to empower users like you to effortlessly create and maintain your very own personalized website or portfolio. With its cutting-edge technology and user friendly interface, Myfolio takes the complexity out of web development, making it accessible to users of all skill levels.</p>
+                        <p>Gone are the days of struggling with complicated coding and spending endless hours on website design. With Myfolio, you can bring your vision to life in a matter of minutes. Whether you're an aspiring photographer, a budding entrepreneur, or simply someone who wants to showcase their talents online, MyFolio provides you with the tools and flexibility to create a website that truly represents you.</p>
+                    
+                        <h4>Used Technologies</h4>
+                        <ul>
+                            <li>Tailwind CSS</li>
+                            <li>Alpine JS</li>
+                            <li>Livewire</li>
+                            <li>Laravel</li>
+                        </ul>
+                        <p>Myfolio is built upon TALL Stack, a modern and highly recommened stack for Laravel Users.</p>
+                        
+                        <h4>Core Features</h4>
+                        <ul>
+                            <li>Simple & User Friendly Admin Interface.</li>
+                            <li>Dynamic Modules</li>
+                            <li>Mobile Responsive Design</li>
+                            <li>SEO Optimization.</li>
+                            <li>Analytics and Reporting, Out of the Box no thrid party service required.</li>
+                            <li>Multiple Themes Support</li>
+                        </ul>
+
+                        <h4>Need Support ?</h4>
+                        <p>If you have any questions or need assistance regarding this script, kindly contact us via <a href="https://codecanyon.net/user/ravi123reddy" target="_blank">email from our profile</a>.</p>
+                    </section>
+
+                    <hr class="divider">
+
+                    <!-- 2. Server Requiremtns -->
+                    <section id="server_requirements">
+                        <h2>Server Requirements</h2>
+                        <p>Check the following Extension and requirements with your <b>Hosting Provider.</b></p>
+                        <ul>
+                            <li>Minimum PHP Version <b>8.1</b></li>
+                            <li>Open SSL PHP Extension</li>
+                            <li>PDO PHP Extension</li>
+                            <li>MBString PHP Extension</li>
+                            <li>Tokenizer PHP Extension</li>
+                            <li>XML PHP Extension</li>
+                            <li>CTYPE PHP Extension</li>
+                            <li>JSON PHP Extension</li>
+                            <li>FileInfo PHP Extension</li>
+                            <li>BCMath PHP Extension</li>
+                            <li>GD Library PHP Extension</li>
+                        </ul>
+                    </section>
+
+                    <hr class="divider">
+
+                    <!-- 3. How to Setup on Live Server -->
+                    <section id="setup_live">
+                        <h2>How to Setup on Live Server</h2>
+
+                        <h5>Step 1 - Upload Files</h5>
+                        <ul>
+                            <li>Login to your CPanel, you can access that from your Hosting Service Provider.</li>
+                            <li>Click on <b>"File Manager"</b>.</li>
+                            <li>From the bunch of folder, find <code>public_html</code>, folder</li>
+                            <li>Upload the zip archive <code>upload_this.zip</code> inside public_html.</li>
+                            <li>Extract the Contents of zip inside public_html.</li>
+                        </ul>
+
+                        <h5>Step 2 - Create A Database</h5>
+                        <ul>
+                            <li>From your CPanel, click on MySQL Database</li>
+                            <li>Create a New Database and a New User.</li>
+                            <li>Take Note of credentials will be required later.</li>
+                        </ul>
+                    </section>
+
+                    <hr class="divider">
+
+                    <!-- 4. How to Setup on Localhost -->
+                    <section id="setup_local">
+                        <h2>How to Setup on Localhost</h2>
+                        <p>For Local Development your must be running XAMPP or WAMP on your machine.</p>
+
+                        <h5>Step 1 - Copy Files</h5>
+                        <ul>
+                            <li>Create a folder in your local server, name it "myfolio". Inside <code>htdocs</code> folder if you are using XAMPP or <code>www</code> folder if you are using WAMP.</li>
+                            <li>Copy and paste here the archve file <code>upload_this.zip</code>, that you have downloaded.</li>
+                            <li>"Right Click" on it.</li>
+                            <li>Extract the contents inside this folder.</li>
+                        </ul>
+
+                        <h5>Step 2 - Create a Database</h5>
+                        <ul>
+                            <li>Start your Apache Server and MySQL Server</li>
+                            <li>navigate to <code>phpMyAdmin</code> area, to manage database.</li>
+                            <li>Click on New, and enter a name for your database then create it.</li>
+                            <li>Now create a User for your database, under <code>User Accounts</code> tab.</li>
+                            <li>Create a New User; keep a track of username and password.</li>
+                        </ul>
+
+                        <h5>Step 3 - Create a Local Domain (Advanced & Optional)</h5>
+                        <ul>
+                            <li>Open Notepad with Administrative Privileges</li>
+                            <li>Click on File and Open.</li>
+                            <li>Navigate to <code>C:\Windows\system32\drivers\etc</code>, select "All Files", then open Hosts file;</li>
+                            <li>Now simply add, <code>127.0.0.1&nbsp;&nbsp;&nbsp;&nbsp;myfolio.local</code>, to the bottom and save it.</li>
+                        </ul>
+                        <h6>Step 3.1 - Setup VirtualHost on Apache Server</h6>
+                        <ul>
+                            <li>Navigate to <code>C:\xampp\apache\conf\extra</code>, find and open <code>httpd-vhosts.conf</code> in notepad.</li>
+                            <li>Without touching anything, add this piece of code at bottom:</li>
+                            <pre>
+                                <code>&lt;VirtualHost *:80&gt;<br>&nbsp;&nbsp;ServerAdmin webmaster@dummy-email.com<br>&nbsp;&nbsp;DocumentRoot "C:/xampp/htdocs/myfolio"<br>&nbsp;&nbsp;ServerName myfolio.local<br>&nbsp;&nbsp;ErrorLog "logs/myfolio-error.log"<br>&nbsp;&nbsp;CustomLog "logs/myfolio-access.log" common<br>&lt;/VirtualHost&gt;</pre></code>
+                            <li>Save and Exit.</li>
+                        </ul>
+
+                        <p class="lead font-weight-400"><b>Note:</b> After finishing this steps now you can visit and access MyFolio at <code>myfolio.local</code>. As this Step 3 is optional, its upto you if you want to setup a domain or not, without this you can access MyFolio at <code>localhost/myfolio</code></p>
+                    </section>
+
+                    <hr class="divider">
+
+                    <!-- 5. MyFolio Installation -->
+                    <section id="myfolio_installation">
+                        <h2>MyFolio Setup</h2>
+                        <p class="lead font-weight-400">Before proceeding further, open the <code>.env</code> file in root of the project, and find <code>APP_URL=http://localhost</code>, and update with your domain (for localhost you can use <code>localhost/myfolio</code> or if you created a local domain, you can use it).</p>
+                        
+                        <h4>Installation Wizard</h4>
+                        <p>MyFolio comes with a simple yet powerfull installation wizard which handles all the necessary tasks, ensuring a smooth and hassle-free installation of application which guides you through the entire setup process, breaking it down into simple and intuitive steps. .</p>
+                        <ul>
+                            <li>Navigate to <b>"www.your-domain.com/install"</b>, example: <code>www.myfolio.test/install</code></li>
+                            <li>Proceed through <b>Step 1 - A Welcome Note</b> & <b>Step 2 - checks Server Requirements.</b></li>
+                            <li><b>Step 3 - Connect Database.</b> Enter your credentials. Once connection is established you will be requested to do manual refresh, after which Installer will take care of running migrations.</li>
+                            <li><b>Step 4 - Create a Master Account for MyFolio.</b> After which you will be briefed with account details, if there is any mistakes you can reset the account, and recreate the account or just continue.</li>
+                            <li><b>Step 5 - Installing Myfolio,</b> for running smoothly some commands need to be executed, and MyFolio takes care of it. Sit Back</li>
+                            <li>After Completion, you will redirected to Login Screen. Login with your credentials to access <b>Admin Panel</b>.</li>
+                        </ul>
+                    </section>
+
+                    <hr class="divider">
+
+                    <section id="myfolio_admin">
+                        <h4>Admin Dashboard</h4>
+                        <p>Welcome to MyFolio Admin Dashboard, a centralized hub with a convenient interface where admin can manage his/her site, handling content, analyzing traffic, configuring settings and frontend themes.</p>
+                        <a class="popup-img" href="assets/images/admin_area.png">
+                            <img class="img-fluid border" src="assets/images/admin_area.png" alt="admin_area">
+                        </a>
+                        <ul>
+                            <li><b>Header</b> - at top we have a header with logo on left and on right you some toggle button, view site, Toggle between dark/light mode, and access admin profile area or Logout via dropdown menu.</li>
+                            <li><b>Sidebar</b> - navigate between pages in admin area, Personal Information, Porfolio, Messages, Newsletter, Settings, Themes.</li>
+                            <li><b>Main Content Area</b> - currently you are viewing your dashboard, where you can checks your site analytics, Total Number of views, Unique & Recent Visitors, Visitors by Platform (basically devices) or Country.</b></li>
+                        </ul>
+                    </section>
+
+                    <hr class="divider">
+
+                    <section id="myfolio_profile">
+                        <h4>Profile</h4>
+                        <p>Admin can update his profile like profile picture, email and name, update passwords, manage multiple sessions, & Two Factor Authentication (2FA)</p>
+                        <a class="popup-img" href="assets/images/admin_profile.jpeg">
+                            <img class="img-fluid border" src="assets/images/admin_profile.jpeg" alt="admin_profile">
+                        </a>
+                        <ul>
+                            <li><b>Profile Info</b> - update profile Image, Name, and Email.</li>
+                            <li><b>Update Passwords</b></li>
+                            <li><b>Two Factor Authentication (2FA)</b> - Myfolio's one of the primary focus is security, so it comes with 2FA out of the box, click on <code>Enable</code>, you will be prompted to confirm your password. After which you will get a QR Code which you need to scan with <b>Authenticator App</b> like <code>Google Authenticator or Microsoft Authenticator</code>, can be downloaded from Play Store. Followed by, you will get some recovery codes download & store them, as it will be required when you can't signin.</li>
+                            <li><b>Browser Session</b> - Check in how many browsers your session is active, you can log out unknown sessions directly from here.</li>
+                        </ul>
+                    </section>
+
+                    <hr class="divider">
+
+                    <section id="myfolio_personal">
+                        <h4>Personal Information</h4>
+                        <p>Don't get confused between profile and personal information as both are different, profile is only meant fron admin usage. As Personal Information are dynamically displayed on your Frontend</p>
+                        <p>In Main Content Area, you can see horizontal tabs, <b>About Me, Skills, Services, Education, Experience</b>, admin need to update each section by switching between tabs; lets cover one by one.</p>
+                        <p><b>Note: In Mobile Screen horizontal tabs will be stacked horizontally and need to scrolled.</b></p>
+
+                        <h5>(a) About Me</h5>
+                        <a class="popup-img" href="assets/images/admin_personal_aboutme.jpeg">
+                            <img class="img-fluid border" src="assets/images/admin_personal_aboutme.jpeg" alt="admin_area">
+                        </a>
+                        <ul>
+                            <li><b>Personal Information - </b>add you name, email, contact number, location, job or profession, and birthday. As some people dont want to let visitors know their contact information, location or birthday, in that case you can toggle to show/hide those options in frontend.</li>
+                            <li><b>Primary Section</b>
+                                <ul>
+                                    <li><b>Headline - </b>A catchy line which encourages users to continue rerading.</li>
+                                    <li><b>About Me - </b>A Small introduction about you, consider writing them in <code>Markdown</code>, you can use Dillinger.io which guides you how to write in markdown with live preview.</li>
+                                    <li><b>Image File - </b>Upload a nice suitable image as per theme; Personal Sites with person images increase trust.</li>
+                                    <li><b>Resume - </b>Enable option to allow visitors to download your resume; By default it is <code>OFF</code>, you can turn it on, it will ask you to upload resume file</li>
+                                </ul>
+                            </li>
+                            <li><b>Social Links - </b>add your social handles so visitors can follow and connect with you, choose Icons from <b>Ion Icons</b>, an Open Source Icon Library, just get the name of the icon, social handle, and link to your profile;</li>
+                            <li><b>Extra Information - </b>add your Achievements, Records & Project Completed like additional information. Please note, some themes won't use this feature.</li>
+                        </ul>
+                        
+                        <h5>(b) Skills</h5>
+                        <a class="popup-img" href="assets/images/admin_personal_skills.png">
+                            <img class="img-fluid border" src="assets/images/admin_personal_skills.png" alt="admin_area">
+                        </a>
+                        <ul>
+                            <li>To Add New Skills click on <code>Add Item</code> button on right, a modal will pop-up.</li>
+                            <li>You can add skills in a Group Wise, like shown in a Image.</li>
+                            <li>Write a Skill name, add a group(optional), and Skill Percentage.</li>
+                            <li>In case of correction, simply delete a card.</li>
+                        </ul>
+
+                        <h5>(c) Services</h5>
+                        <a class="popup-img" href="assets/images/admin_personal_service.png">
+                            <img class="img-fluid border" src="assets/images/admin_personal_service.png" alt="admin_area">
+                        </a>
+                        <ul>
+                            <li>To Add Service click on <code>Add Item</code> button on right, a modal will popup.</li>
+                            <li>Service Title, Service Description and Service Icon.</li>
+                            <li>Icon can be selected from <b>Ion Icons</b>, an Open Source Icon Library, just copy the name attribute, like <code>logo-android</code></li>
+                        </ul>
+
+                        <h5>(d) Education</h5>
+                        <a class="popup-img" href="assets/images/admin_personal_education.png">
+                            <img class="img-fluid border" src="assets/images/admin_personal_education.png" alt="admin_area">
+                        </a>
+                        <ul>
+                            <li>To Add Education click on <code>Add Item</code> button on right, a modal will popup.</li>
+                            <li>Add University Name, Course Name, Duration, and Description (Optional)</li>
+                        </ul>
+
+                        <h5>(e) Work Experience</h5>
+                        <a class="popup-img" href="assets/images/admin_personal_work.png">
+                            <img class="img-fluid border" src="assets/images/admin_personal_work.png" alt="admin_area">
+                        </a>
+                        <ul>
+                            <li>To Add Work Experience click on <code>Add Item</code> button on right, a modal will popup.</li>
+                            <li>Add Company Name, Job Role, Duration, if you are currently Working, leave <code>End Year</code> blank.</li>
+                            <li>Currently Working indication will appear on card.</li>
+                        </ul>
+                    </section>
+
+                    <hr class="divider">
+
+                    <section id="myfolio_portfolio">
+                        <h4>Portfolio</h4>
+                        <p>Add your projects, works to your porfolio.</p>
+                        <a class="popup-img" href="assets/images/admin_portfolio.png">
+                            <img class="img-fluid border" src="assets/images/admin_portfolio.png" alt="admin_portfolio">
+                        </a>
+
+                        <ul>
+                            <li>To add a new item, click on <code>Add Item</code> button on right. A Modal will appear</li>
+                            <li><b>Title - </b>project name</li>
+                            <li><b>Category - </b>project category like CMS, Android Applications, Others.</li>
+                            <li><b>Stack - </b>development stack or technologies you used.</li>
+                            <li><b>Link - </b>a link to your project if it is hosted on github or something. If not just use <code>#</code>.</li>
+                            <li><b>Description - </b>a short note or description of project.</li>
+                            <li><b>Display Picture - </b>a picture resembling your project.</li>
+                        </ul>
+                    </section>
+
+                    <hr class="divider">
+
+                    <section id="myfolio_messages">
+                        <h4>Messages</h4>
+                        <p>When Visitors uses contact form on forntend, you can view those details here. Not limited to viewing you can also send reply or delete messages from here.</p>
+                        <a class="popup-img" href="assets/images/admin_messages.png">
+                            <img class="img-fluid border" src="assets/images/admin_messages.png" alt="admin_messages">
+                        </a>
+
+                        <ul>
+                            <li><b>Messages is made as simple as Chat UI,</b> on sidebar you need to select a Conversation and right side you will message from them</li>
+                            <li><b>In Main conversation side,</b> you have Contact Person Name, Email, Phone Number (If provided), a message, on bottom two buttons Reply and Delete.</li>
+                            <li><b>To Reply -</b> click on reply button a modal will appear write Subject and Message Content, Markdown is highly recommeneded for content. Also, before sending a mail you can preview that mail by sending to yourself <code>(Admin Email must be updated in Settings).</code></li>
+                        </ul>
+
+                        <p><b>Note: For Sending Replies, SMTP Must be Configured from settings</b></p>
+                    </section>
+
+                    <hr class="divider">
+
+                    <section id="myfolio_newsletter">
+                        <h4>Newsletter</h4>
+                        <p>Allows you to connect with your audience by sending regular/weekly newsletter via Email. It enables you share updates, promotions, and other relevant information directly to subscribers' inboxes.</p>
+                        <a class="popup-img" href="assets/images/admin_newsletter.png">
+                            <img class="img-fluid border" src="assets/images/admin_newsletter.png" alt="admin_newsletter">
+                        </a>
+
+                        <ul>
+                            <li>Contains a List of Subscriber Details, <b>Name & Email</b></li>
+                            <li><b>To Send Newsletter -</b> click on the right side button <code>SEND MAIL</code>.</li>
+                            <li>A Modal will appear write subject and Message Content, Markdown is highly recommeneded for content. Also, before sending a mail you can preview that mail by sending to yourself <code>(Admin Email must be updated in Settings).</code></li>
+                        </ul>
+                        <a class="popup-img" href="assets/images/admin_email_modal.png">
+                            <img class="img-fluid border" src="assets/images/admin_email_modal.png" alt="admin_email_modal">
+                        </a>
+
+                        <p><b>Note: For Sending Replies, SMTP Must be Configured from settings. Newsletter mail will be sent in background, as they will added to queue. A proper CRON Job must be setup on Server.</b></p>
+                    </section>
+
+                    <hr class="divider">
+
+                    <section id="myfolio_themes">
+                        <h4>Themes</h4>
+                        <p>Myfolio provides a convenient and easy way to manage the visual appearance and styling of the application. It allows you to easily switch between different themes. Themes enhances the flexibility and user experience of the application by offering a variety of visual options.</p>
+                        <p>Currently, Myfolio owns Two Themes <code>Dark Spooky & Midnight Blue</code>, in next update more themes will be added and may be some customization options.</p>
+                        <a class="popup-img" href="assets/images/admin_themes.png">
+                            <img class="img-fluid border" src="assets/images/admin_themes.png" alt="admin_themes">
+                        </a>
+                        <p><b>Note:</b> If you dont see the thumbnails of the Themes, then simply click on <b>Set as Active</b>, button of theme and refresh the page. this will cache all themes files.</p>
+                    </section>
+
+                    <hr class="divider">
+
+                    <section id="myfolio_settings">
+                        <h4>Settings</h4>
+                        <p>Myfolio settings sections provide you with the ability to configure various aspects of the application, ensuring flexibility, customization, and optimal functionality. These Settings Includes <b>General Settings, SEO Settings & SMTP Settings.</b></p>
+                        <a class="popup-img" href="assets/images/admin_settings.jpeg">
+                            <img class="img-fluid border" src="assets/images/admin_settings.jpeg" alt="admin_settings">
+                        </a>
+                        <ul>
+                            <li>General Settings
+                                <ul>
+                                    <li><b>Application Status - </b>Toggle between application Live/Maintainence Mode. While in maintainence mode, visitors are redirected to maintainence page.</li>
+                                    <li><b>Site Name - </b>name of your site</li>
+                                    <li><b>App Logo & App Favicon - </b>Upload your own logo and favicon.</li>
+                                    <li><b>App Timezone - </b>Select your application timezone default is +5:30 (Asia/Kolkata)</li>
+                                    <li><b>Admin Email - </b>Email where you will receive updates of your site. SMTP must be required to receive emails.</li>
+                                </ul>
+                            </li>
+                            <li>SEO Configuration
+                                <ul>
+                                    <li><b>SEO Title - </b>Title for your Site and uniqueness might improve your SEO Results.</li>
+                                    <li><b>SEO Keywords - </b>add multiple keywors seperated by comma</li>
+                                    <li><b>SEO Description - </b>A good description will improve your SEO Score, recommened to maintain 150 Characters.</li>
+                                </ul>
+                            </li>
+                            <li>SMTP Settings
+                                <ul>
+                                    <li><b>SMTP HOST & PORT - </b>Host and Port of your SMTP Provider</li>
+                                    <li><b>SMTP Username & Password - </b>some username are long and are in form of email.</li>
+                                    <li><b>From Name & Email - </b> add name and email receiver will see in there inboxes. Example <code>R Cube Dev, noreply@myfolio.test</code></li>
+                                    <li><b>SMTP Encryption - </b> Encryption setting is completely optional, not recommeneded to use, unless defined by your smtp provider.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <p><b>Note: After you add details send a test email, to check if everything is correctly set. Test Email will be delievered to Admin Email in General Settings.</b></p>
+                    </section>
+                    
+                    <hr class="divider">
+
+                    <!-- How To -->
+                    <section id="how_to">
+                        <h2>How To & FAQ</h2>
+                        <p>Some Important Notes and frequently asked questions.</p>
+                        
+                        <h5 id="how_to_add_cron_job">How to add Cron Job and why it is required?</h5>
+                        <p>A cron job is a task scheduler in Unix-like systems that run shell commands at certain intervals. It is a key concept in Laravel and is used to run administrative tasks periodically on the server, such as sending emails or cleaning cache in file system.</p>
+                        <p>In Myfolio, Task Scheduler is used to run <b>Queue Worker</b>, periodically. As your site grows you might receive a high traffic and newsletter subscribers. Now, when you send newsletter mail at once server response time can't handle it. So, Myfolio add all emails to queue and will be sent in background. There is where CRON Job will come to action, and start the worker, and worker checks if there is any task in queue, if there is no task it will stop automatically.</p>
+                        
+                        <ul>
+                            <li>Login into your CPanel of Your Hosting Provider.</li>
+                            <li>Find <code>CRON Job</code>, mostly in <b>Advanced Tab</b>.</li>
+                            <li>Depending on your Hosting Provider, the ui and options may be different for you.</li>
+                            <li><b>In Common Options set</b> Once Per Minute (* * * * *).</li>
+                            <li><b>In Command to Run set </b> <code>[route to php] [route to cron script]</code></li>
+                            <li><code>/usr/bin/php /home/rcubedev/public_html/artisan schedule:run</code></li>
+                            <li>This will run the <code>schedule:run</code> command every once per minute.</li>
+                        </ul>
+
+                        <h5 id="how_to_edit_code">How to Edit Code?</h5>
+                        <span>MyFolio maintains Laravel Structure <b>(MVC)</b>.</span>
+                        <ul>
+                            <li>All Routes or URL Links used in this project are defined at <code>root_of_project/routes/web.php</code></li>
+                            <li>All Models Controllers, Livewire Componens are located at <code>root_of_project/app/http/</code></li>
+                            <li>All Views and UI are located at <code>root_of_project/resources/views</code></li>
+                            <li>Frontend Themes are located at <code>root_of_project/themes/</code></li>
+                        </ul>
+
+                        <p><b>Note: Editing components or code may brick you application. Without knowledge I don't recommened you to do it.</b></p>
+                    </section>
+                    
+                    <hr class="divider">
+
+                    <section id="support">
+                        <h2>Support</h2>
+                        <p class="lead font-weight-400">Thank you so much for purchasing this script. I would be glad to help you, if you have any questions regarding <b>MyFolio</b>, I will do my best to assist you. If you have any queries, please feel free to contact me via Email.</p>
+                    </section>
+
+                    <p>Best Regards,</p>
+                    <a href="https://codecanyon.net/user/ravi123reddy">R Cube Dev</a>
+                </div>
+            </div>
+            <!-- Docs End -->
+
+        </main>
+
+        <!-- Footer -->
+        <footer id="footer" class="section bg-dark footer-text-light">
+            <div class="container">
+              <ul class="social-icons social-icons-lg social-icons-muted justify-content-center mb-3">
+                <li><a data-toggle="tooltip" href="https://twitter.com/harnishdesign/" target="_blank" title="" data-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                <li><a data-toggle="tooltip" href="http://www.facebook.com/harnishdesign/" target="_blank" title="" data-original-title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a data-toggle="tooltip" href="http://www.dribbble.com/harnishdesign/" target="_blank" title="" data-original-title="Dribbble"><i class="fab fa-dribbble"></i></a></li>
+                <li><a data-toggle="tooltip" href="http://www.github.com/" target="_blank" title="" data-original-title="GitHub"><i class="fab fa-github"></i></a></li>
+              </ul>
+              <p class="text-2 text-center mb-0">MyFolio - Personal Website Laravel Script Documentation</p>
+            </div>
+        </footer>
+        <!-- Footer End -->
+    </div>
+
+    <!-- Back to Top -->
+    <a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- Scripts -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script> 
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
+    <!-- Highlight JS -->
+    <script src="assets/vendor/highlight.js/highlight.min.js"></script> 
+    <!-- Easing --> 
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script> 
+    <!-- Magnific Popup --> 
+    <script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script> 
+    <!-- Custom Script -->
+    <script src="assets/js/theme.js"></script>
+</body>
+</html>
