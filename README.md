@@ -13,7 +13,6 @@ Gone are the days of struggling with complicated coding and spending endless hou
 * Alpine JS
 * Livewire
 * Laravel
-* Interia JS
 
 ## Core Features
 ---
